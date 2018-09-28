@@ -25,11 +25,11 @@
 
 /* ORIGEN has 4 bank of DRAM */
 #define CONFIG_NR_DRAM_BANKS		4
-//#define CONFIG_NR_DRAM_BANKS       8
+/*#define CONFIG_NR_DRAM_BANKS       8*/
 #define CONFIG_SYS_SDRAM_BASE		0x40000000
 #define PHYS_SDRAM_1			CONFIG_SYS_SDRAM_BASE
 #define SDRAM_BANK_SIZE			(256 << 20)	/* 256 MB */
-//#define SDRAM_BANK_SIZE            (128 << 20) /* 128MB */
+/*#define SDRAM_BANK_SIZE            (128 << 20) /* 128MB */
 /* memtest works on */
 #define CONFIG_SYS_MEMTEST_START	CONFIG_SYS_SDRAM_BASE
 #define CONFIG_SYS_MEMTEST_END		(CONFIG_SYS_SDRAM_BASE + 0x6000000)
